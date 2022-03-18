@@ -15,11 +15,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -82,4 +82,28 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .email-link {
+    font-size: 15px;
+  }
 }
